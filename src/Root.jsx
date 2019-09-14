@@ -1,10 +1,11 @@
 import React from 'react'
-import './App.css'
+
+import './Root.scss'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header" id="24343">
+      <header className="App-header">
         SENTENCES CONSTRUCTOR <small>0.1.0</small>
       </header>
     </div>
