@@ -1,5 +1,6 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+
+import './Root.scss'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         SENTENCES CONSTRUCTOR <small>0.1.0</small>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,34 @@
+{
+  "extends": ["prettier", "prettier/react", "standard-react"],
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-use-before-define": "off",
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true,
+    "test": true,
+    "it": true
+  },
+  "parser": "babel-eslint"
+}
